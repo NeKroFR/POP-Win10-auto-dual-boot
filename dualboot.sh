@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 red=`echo -en "\e[31m"`
 cyan=`echo -en "\e[36m"`
@@ -7,12 +7,9 @@ default=`echo -en "\e[39m"`
 
 clear
 
-if [ "$(whoami)" != "root" ]; then
-        echo  "${red}Sorry. This script requires sudo privleges"
-        exit 255
-fi
 
-echo "${cyan}Do you want to create the dual boot?\n[Y/N]${default"
+echo "${cyan}Do you want to create the dual boot?\n[Y/N]${default}"
+
 
 read choice
 case "$choice" in
