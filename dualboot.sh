@@ -4,9 +4,7 @@ red=`echo -en "\e[31m"`
 cyan=`echo -en "\e[36m"`
 default=`echo -en "\e[39m"`
 
-
 clear
-
 
 echo "${cyan}Do you want to create the dual boot?\n[Y/N]${default}"
 
