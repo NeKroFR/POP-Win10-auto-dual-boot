@@ -10,6 +10,7 @@ echo "${cyan}Do you want to create the dual boot?\n[Y/N]${default}"
 
 
 read choice
+
 case "$choice" in
     "y" | "Y")
 sudo apt update && sudo apt upgrade -y
